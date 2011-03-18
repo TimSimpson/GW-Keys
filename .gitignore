@@ -11,3 +11,4 @@ Debug
 Release
 Release2010-08-22
 *.cache
+*.csproj.user
