@@ -1,8 +1,0 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <StartWorkingDirectory>F:\Work\Lp3\Projects\GW-Keys\Code\trunk\Release\</StartWorkingDirectory>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <StartWorkingDirectory>F:\Work\Lp3\Projects\GW-Keys\Code\trunk\Debug\</StartWorkingDirectory>
-  </PropertyGroup>
-</Project>
