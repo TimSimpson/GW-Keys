@@ -1,0 +1,12 @@
+GeneratedSource
+target
+*.suo
+*.ncb
+*.vcproj.*.user
+bin
+obj
+*.vskdb
+*.vsksln
+Debug
+Release
+Release2010-08-22

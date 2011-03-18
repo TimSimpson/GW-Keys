@@ -1,0 +1,5 @@
+LIBRARY CapsToGWBasicAscii
+DESCRIPTION "bdfgdf"
+EXPORTS
+	CapsToGWBasicAscii_Install @1
+	CapsToGWBasicAscii_Uninstall @2
