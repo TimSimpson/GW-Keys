@@ -22,7 +22,7 @@ namespace NetDll {
 
 		CapsToGWBasicAscii()
 		{	
-			HINSTANCE dll = LoadLibrary(_T("CapsToGWBasicAsciiDll"));//F:\\Lp3\\General\\C++\\CapsToGWBasicAscii\\Debug\\CapsToGWBasicAsciiDll.dll")); 
+			HINSTANCE dll = LoadLibrary(_T("CapsToGWBasicAsciiDll.dll"));//F:\\Lp3\\General\\C++\\CapsToGWBasicAscii\\Debug\\CapsToGWBasicAsciiDll.dll")); 
 			if (!dll)	
 			{
 				throw gcnew System::Exception(_T("Error loading DLL!"));

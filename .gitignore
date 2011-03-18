@@ -10,3 +10,4 @@ obj
 Debug
 Release
 Release2010-08-22
+*.csproj.user
