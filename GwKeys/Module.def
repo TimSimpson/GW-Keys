@@ -1,0 +1,5 @@
+LIBRARY CapsToGWBasicAscii
+DESCRIPTION "bdfgdf"
+EXPORTS
+	GwKeys_Install @1
+	GwKeys_Uninstall @2

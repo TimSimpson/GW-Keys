@@ -8,10 +8,11 @@
     <ProjectGuid>{5DEF9C48-DC76-478D-A80A-DC6AF8C357AD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NetGui</RootNamespace>
-    <AssemblyName>NetGui</AssemblyName>
+    <RootNamespace>GwKeys.Gui</RootNamespace>
+    <AssemblyName>GwKeysGui</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>gwNotify.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,6 +71,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -82,14 +84,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetDll\NetDll.vcproj">
-      <Project>{A9D2E695-946B-493B-9095-B412315A9167}</Project>
-      <Name>NetDll</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="gwNotify.ico" />
     <EmbeddedResource Include="NormalCapsNotify.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GwKeys.Net\GwKeys.Net.vcproj">
+      <Project>{A9D2E695-946B-493B-9095-B412315A9167}</Project>
+      <Name>GwKeys.Net</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

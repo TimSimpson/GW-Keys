@@ -1,1 +1,0 @@
-This was an attempt to build a GUI in C++.  Aborted.

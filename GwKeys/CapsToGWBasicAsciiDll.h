@@ -17,8 +17,8 @@
 
 	//typedef void (*DebugOutput)(const char * const msg);
 
-	CAPSTOGWBASICASCIIDLL_API int CapsToGWBasicAscii_Install();//unsigned long threadId, DebugOutput outputFunc);
-	CAPSTOGWBASICASCIIDLL_API int CapsToGWBasicAscii_Uninstall();
+	CAPSTOGWBASICASCIIDLL_API int GwKeys_Install();//unsigned long threadId, DebugOutput outputFunc);
+	CAPSTOGWBASICASCIIDLL_API int GwKeys_Uninstall();
 
 	//extern CAPSTOGWBASICASCIIDLL_API int nCapsToGWBasicAsciiDll;
 

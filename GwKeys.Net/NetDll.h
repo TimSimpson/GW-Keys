@@ -7,7 +7,7 @@
 
 using namespace System;
 
-namespace NetDll {
+namespace GwKeys {
 
 	public ref class CapsToGWBasicAscii
 	{
@@ -17,12 +17,13 @@ namespace NetDll {
 		typedef int (*UninstallFunc)();
 
 		DebugOutput outputFunc;
+		HINSTANCE dll;
 		InstallFunc install;
 		UninstallFunc uninstall;
 
 		CapsToGWBasicAscii()
 		{	
-			HINSTANCE dll = LoadLibrary(_T("CapsToGWBasicAsciiDll.dll"));//F:\\Lp3\\General\\C++\\CapsToGWBasicAscii\\Debug\\CapsToGWBasicAsciiDll.dll")); 
+			this->dll = LoadLibrary(_T("GwKeys.dll"));//F:\\Lp3\\General\\C++\\CapsToGWBasicAscii\\Debug\\CapsToGWBasicAsciiDll.dll")); 
 			if (!dll)	
 			{
 				throw gcnew System::Exception(_T("Error loading DLL!"));
@@ -33,16 +34,21 @@ namespace NetDll {
 				//return -1;
 			}
 			//this->outputFunc = LogDll;
-			this->install = (InstallFunc) GetProcAddress(dll, "CapsToGWBasicAscii_Install");
+			this->install = (InstallFunc) GetProcAddress(dll, "GwKeys_Install");
 			if (!install)
 			{
 				throw gcnew System::Exception(_T("Could not find install function in DLL."));
 			}
-			this->uninstall = (UninstallFunc) GetProcAddress(dll, "CapsToGWBasicAscii_Uninstall");		
+			this->uninstall = (UninstallFunc) GetProcAddress(dll, "GwKeys_Uninstall");		
 			if (!uninstall)
 			{
 				throw gcnew System::Exception(_T("Could not find uninstall function in DLL."));
 			}
+		}
+
+		~CapsToGWBasicAscii()
+		{
+			FreeLibrary(this->dll);
 		}
 
 		void Install()

@@ -6,9 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using NetDll;
+using GwKeys;
 
-namespace NetGui
+namespace GwKeys.Gui
 {
     public partial class Form1 : Form
     {

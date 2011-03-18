@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CapsToGWBasicAscii", "CapsToGWBasicAscii\CapsToGWBasicAscii.vcproj", "{99177CAE-179F-49C4-A2B7-CE295AC4A291}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GwKeys", "GwKeys\GwKeys.vcproj", "{554813BD-E98F-46D1-9037-B53D85464D6A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CapsToGWBasicAsciiDll", "CapsToGWBasicAsciiDll\CapsToGWBasicAsciiDll.vcproj", "{554813BD-E98F-46D1-9037-B53D85464D6A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GwKeysNet", "GwKeys.Net\GwKeys.Net.vcproj", "{A9D2E695-946B-493B-9095-B412315A9167}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetDll", "NetDll\NetDll.vcproj", "{A9D2E695-946B-493B-9095-B412315A9167}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetGui", "NetGui\NetGui.csproj", "{5DEF9C48-DC76-478D-A80A-DC6AF8C357AD}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppNetGui", "CppNetGui\CppNetGui.vcproj", "{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GwKeysGui", "GwKeysGui\GwKeysGui.csproj", "{5DEF9C48-DC76-478D-A80A-DC6AF8C357AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,16 +17,6 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Debug|Win32.ActiveCfg = Debug|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Debug|Win32.Build.0 = Debug|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Release|Any CPU.ActiveCfg = Release|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Release|Win32.ActiveCfg = Release|Win32
-		{99177CAE-179F-49C4-A2B7-CE295AC4A291}.Release|Win32.Build.0 = Release|Win32
 		{554813BD-E98F-46D1-9037-B53D85464D6A}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{554813BD-E98F-46D1-9037-B53D85464D6A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{554813BD-E98F-46D1-9037-B53D85464D6A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
@@ -61,16 +47,6 @@ Global
 		{5DEF9C48-DC76-478D-A80A-DC6AF8C357AD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{5DEF9C48-DC76-478D-A80A-DC6AF8C357AD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5DEF9C48-DC76-478D-A80A-DC6AF8C357AD}.Release|Win32.ActiveCfg = Release|Any CPU
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Debug|Win32.ActiveCfg = Debug|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Debug|Win32.Build.0 = Debug|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Release|Any CPU.ActiveCfg = Release|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Release|Win32.ActiveCfg = Release|Win32
-		{6907F68B-63F5-4FC7-BBF6-91B68F61EB92}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

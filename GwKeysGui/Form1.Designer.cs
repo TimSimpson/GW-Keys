@@ -1,4 +1,4 @@
-﻿namespace NetGui
+﻿namespace GwKeys.Gui
 {
     partial class Form1
     {

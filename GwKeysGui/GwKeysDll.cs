@@ -1,6 +1,6 @@
-﻿using NetDll;
+﻿using GwKeys;
 
-namespace NetGui
+namespace GwKeys.Gui
 {
     public class GwKeysDll
     {

@@ -1,3 +1,3 @@
 msbuild /property:Configuration=Release /target:build
-copy /y NetGui\bin\Release\NetGui.exe Release\NetGui.exe
-copy /y NetGui\bin\Release\NetGui.pdb Release\NetGui.pdb
+copy /y GwKeysGui\bin\Release\GwKeysGui.exe Release\GwKeysGui.exe
+copy /y GwKeysGui\bin\Release\GwKeysGui.pdf Release\GwKeysGui.pdb

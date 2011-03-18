@@ -5,9 +5,9 @@ using System.Text;
 using System.Windows.Forms;
 using System.ComponentModel;
 using System.Drawing;
-using NetDll;
+using GwKeys;
 
-namespace NetGui
+namespace GwKeys.Gui
 {
 
 class NotifyIconContainer 
@@ -51,8 +51,8 @@ class NotifyIconContainer
 
         gwKeys = new GwKeysDll();
         
-        capsIcon = new Icon(System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("NetGui.NormalCapsNotify.ico"));
-        gwIcon = new Icon(System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("NetGui.gwNotify.ico"));
+        capsIcon = new Icon(System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("GwKeys.Gui.NormalCapsNotify.ico"));
+        gwIcon = new Icon(System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("GwKeys.Gui.gwNotify.ico"));
 
         notifyIcon.Icon = capsIcon;
         //notifyIcon.Icon = gwIcon;
