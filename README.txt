@@ -34,3 +34,23 @@
  █  / \            ☺☼☼             § § § §   ▄▄█▄▄▄▄▄////         ↓ ↓ ↓       █
  █                                                                            █
  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+
+ ‼ WARNING ‼
+ ▬▬▬▬▬▬▬▬▬▬▬
+ This software comes with no warranty of any kind. It is untested and could
+ do bad things to your system.
+
+ ¶INSTRUCTIONS¶
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ ► Build it by reading my mind and figuring out what to do*, or download the 
+   pre-build version here: http://c768127.r27.cf2.rackcdn.com/GwKeys.zip
+ ► Run GwKeysGUI.exe and a little notification icon will appear. To turn off 
+   the feature, right click on it and select "Disable."
+ ► If the program seems to misbehave (for example, if you seem to be stuck in
+   glyph mode) hitting escape should fix it.
+ ► If you leave this on all day you'll find its consuming a lot of CPU cycles.
+   Maybe I'll fix it eventually, but for now just turn it off when you're
+   finished making art.
+
+
+ * J/K! Instructions on this will come later.
