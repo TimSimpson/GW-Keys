@@ -6,7 +6,7 @@
           ██████    █▄▌█▄▀    ▄▐█▄   ▀▄█▀ ▀▄▄▄▄▀▄▄▄▀ █▄▄▄▄█▀ ▀▄▄▄▄▄▄▀                        
         ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-        This is a program that allows you to use Caps Lock as the way
+        This is a program that allows you to use Caps Lock the way
         Ctrl was used in GW-Basic. ☺ Simply hold it down as you press
         other keys and watch as unicode glyphs appear.
         
